@@ -12,13 +12,6 @@ export interface FileData {
   previewUrl?: string;
 }
 
-export interface PythonSpec {
-  code: string;
-  type: 'chart' | 'geometry_2d' | 'geometry_3d';
-  title?: string;
-  reason?: string;
-}
-
 export interface LessonPlan {
   stt: string;
   tuan: string;
@@ -26,6 +19,4 @@ export interface LessonPlan {
   tenBai: string;
   noiDung: string;
   nls: string; // Năng lực số
-  pythonSpec?: PythonSpec;
-  imagePrompt?: string;
 }
