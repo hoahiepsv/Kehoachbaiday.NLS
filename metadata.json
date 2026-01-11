@@ -1,0 +1,7 @@
+{
+  "name": "Kế Hoạch Bài Dạy - Lồng Ghép NLS",
+  "description": "Ứng dụng hỗ trợ xây dựng kế hoạch bài dạy lồng ghép năng lực số chuyên nghiệp.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
